@@ -74,6 +74,12 @@ section .container {
     text-align: justify;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .main1 {
     display: flex;
     align-items: flex-end;
