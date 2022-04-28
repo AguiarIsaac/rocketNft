@@ -108,7 +108,7 @@ section .container {
 
 
 section:nth-child(2) {
-    background-color: black;
+    background-color: #0E0E0E;
     display: flex;
     height: 41rem;
 }
@@ -123,6 +123,8 @@ section:nth-child(2) {
     gap: 4.3rem;
     border-bottom: 1px solid #5A5757;
     border-right: 1px solid #5A5757;
+    max-width: 17rem;
+    min-width: 15rem;
 }
 
 div.number {
@@ -141,10 +143,42 @@ div.number p:nth-child(2) {
     color: #5A5757;
 }
 
-div.img-banner {
+.banner {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    border-bottom: 1px solid #5A5757;
 }
 
+.text-banner {
+    display: flex;
+    gap: 8rem;
+    padding: 3.75rem;
+}
+
+.text-banner div {
+    width: 28rem;
+}
+
+.text-banner div a {
+    margin-top: 4rem;
+    display: block;
+    text-decoration: underline;
+}
+
+.text-banner div p span {
+    text-decoration: underline;
+    color: #FF5B50;
+}
+
+
+.img-banner img {
+    display: block;
+
+}
 @media(min-width:1400px) {
     .screen_responsive {
         width: 80%;
