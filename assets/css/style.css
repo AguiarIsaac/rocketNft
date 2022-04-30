@@ -179,6 +179,24 @@ div.number p:nth-child(2) {
     display: block;
 
 }
+
+section:nth-child(3) {
+    background-color: #0E0E0E;
+}
+
+.container3 {
+    padding-top: 9rem;
+}
+
+div.title h3 {
+    font-size: 50px;
+}
+
+div.title h3 span {
+    color:#FF5B50;
+}
+
+
 @media(min-width:1400px) {
     .screen_responsive {
         width: 80%;
