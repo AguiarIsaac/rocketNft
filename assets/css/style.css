@@ -13,8 +13,8 @@ a {
     color: white;
 }
 
-.screen_responsive {
-    width: 90%;
+.container{
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -49,14 +49,14 @@ header .button a {
     font-weight: 700;
 }
 
-section .container {
+div#content-sec1{
     display: flex;
     margin-top: 5.625rem;
     margin-bottom: 6.625rem;
     justify-content: space-between;
 }
 
-.container .title {
+#sec1 .title {
     max-width: 37rem;
     margin-left: 2.5rem;
 }
@@ -110,7 +110,6 @@ section .container {
 section:nth-child(2) {
     background-color: #0E0E0E;
     display: flex;
-    height: 41rem;
 }
 
 .numbers {
@@ -198,7 +197,7 @@ div.title h3 span {
 
 
 @media(min-width:1400px) {
-    .screen_responsive {
+    .container {
         width: 80%;
     }
 }
