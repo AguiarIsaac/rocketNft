@@ -109,6 +109,10 @@ div#content-sec1{
 
 section:nth-child(2) {
     background-color: #0E0E0E;
+    border-bottom: 1px solid #5A5757;
+}
+
+div#sec2 {
     display: flex;
 }
 
@@ -120,7 +124,6 @@ section:nth-child(2) {
     width: 40%;
     align-content: center;
     gap: 4.3rem;
-    border-bottom: 1px solid #5A5757;
     border-right: 1px solid #5A5757;
     max-width: 17rem;
     min-width: 15rem;
@@ -149,7 +152,6 @@ div.number p:nth-child(2) {
     justify-content: space-between;
     align-content: center;
     width: 100%;
-    border-bottom: 1px solid #5A5757;
 }
 
 .text-banner {
@@ -183,21 +185,114 @@ section:nth-child(3) {
     background-color: #0E0E0E;
 }
 
-.container3 {
+div#sec3 .text {
     padding-top: 9rem;
+    margin-bottom: 9.8rem;
 }
 
-div.title h3 {
+div#sec3 .text h3 {
     font-size: 50px;
 }
 
-div.title h3 span {
-    color:#FF5B50;
+div#sec3 .text span {
+    color: #FF5B50;
 }
 
+div#sec3 .groupCards {
+    display: flex;
+    justify-content: space-around;
+}
 
-@media(min-width:1400px) {
-    .container {
-        width: 80%;
-    }
+div.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+}
+
+.card .textCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.card .subtitleCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.625rem 0;
+}
+
+.subtitleCard p {
+    font-size: 18px;
+    color: #5A5757;
+}
+.subtitleCard p:last-child {
+    color: #FF5B50;
+}
+
+div.line {
+    border: 0.5px solid #5A5757;
+}
+
+section:nth-child(4) {
+    background-color: #0E0E0E;
+}
+
+div#sec4 {
+    padding-top: 9rem;
+}
+
+div#sec4 .title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+div#sec4 .title span {
+    color: #FF5B50;
+}
+
+.artists {
+    margin-top: 7.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.artist {
+    background: #252525;
+    width: 20rem;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0.5rem 0;
+}
+
+.artist:nth-child(2) {
+    background-color: #FF5B50;
+}
+
+.artist:nth-child(2) p:last-child {
+    color: #0E0E0E;
+    font-weight: bold;
+}
+.artist div p:last-child {
+    color: #FF5B50;
+}
+
+.artist:hover {
+    cursor: pointer;
+}
+
+div#sec4 .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
 }
