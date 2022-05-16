@@ -296,3 +296,20 @@ div#sec4 .link {
     gap: 2rem;
     margin-top: 3rem;
 }
+
+
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+#section1 a {
+    width: 3rem;
+    height: 3rem;
+    background-color:#FF5B50;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
